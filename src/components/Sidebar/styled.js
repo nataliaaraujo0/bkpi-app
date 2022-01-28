@@ -40,3 +40,14 @@ export const SideItems = styled.ul`
     }
   }
 `;
+
+export const WrapperConfig = styled.div`
+  display: flex;
+  align-items: flex-end;
+  padding-top: 260px;
+
+  a {
+    display: flex;
+    align-items: flex-end;
+  }
+`;

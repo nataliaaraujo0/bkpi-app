@@ -1,10 +1,11 @@
-import { Wrapper, SideItems, WrapperLogo } from "./styled";
+import { Wrapper, SideItems, WrapperLogo, WrapperConfig } from "./styled";
 import logoImg from "../../assets/img/logo.svg";
 import speedometerIcon from "../../assets/img/speedometer.svg";
 import fileIcon from "../../assets/img/file.svg";
 import videosIcon from "../../assets/img/video.svg";
 import musicIcon from "../../assets/img/music.svg";
 import graphIcon from "../../assets/img/graph.svg";
+import configIcon from "../../assets/img/config.svg";
 
 export function Sidebar() {
   return (
@@ -33,6 +34,13 @@ export function Sidebar() {
           <img src={graphIcon} alt="" />
           <span>Podcast</span>
         </a>
+
+        <WrapperConfig>
+          <a href="#">
+            <img src={configIcon} alt="" />
+            <span>Configuracoes</span>
+          </a>
+        </WrapperConfig>
       </SideItems>
     </Wrapper>
   );
