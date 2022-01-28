@@ -1,3 +1,4 @@
+import { Charts } from "../../components/charts";
 import { Header } from "../../components/Header";
 import { Produtos } from "../../components/Produtros";
 import { Layout } from "../../layout";
@@ -10,6 +11,7 @@ export const Home = () => {
         <Wrapper>
           <Header />
           <Produtos />
+          <Charts />
         </Wrapper>
       </Layout>
     </>
