@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 230px;
-  height: 761px;
+  height: 910px;
   display: flex;
   flex-direction: column;
   background-color: var(--gray-700);
@@ -41,13 +41,10 @@ export const SideItems = styled.ul`
   }
 `;
 
+export const WrapperSeparetor = styled.div``;
+export const WrapperIconSeparetor = styled.div`
+  display: flex;
+`;
 export const WrapperConfig = styled.div`
   display: flex;
-  align-items: flex-end;
-  padding-top: 260px;
-
-  a {
-    display: flex;
-    align-items: flex-end;
-  }
 `;

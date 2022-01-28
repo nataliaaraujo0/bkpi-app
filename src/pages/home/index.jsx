@@ -1,4 +1,5 @@
 import { Header } from "../../components/Header";
+import { Produtos } from "../../components/Produtros";
 import { Layout } from "../../layout";
 import { Wrapper } from "./styled";
 
@@ -8,6 +9,7 @@ export const Home = () => {
       <Layout>
         <Wrapper>
           <Header />
+          <Produtos />
         </Wrapper>
       </Layout>
     </>
