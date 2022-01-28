@@ -1,10 +1,15 @@
+import { Header } from "../../components/Header";
 import { Layout } from "../../layout";
+import { Wrapper } from "./styled";
 
 export const Home = () => {
   return (
     <>
-      <h1>home</h1>
-      <Layout></Layout>
+      <Layout>
+        <Wrapper>
+          <Header />
+        </Wrapper>
+      </Layout>
     </>
   );
 };

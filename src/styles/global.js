@@ -32,6 +32,7 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
+    background-color: var(--gray-900);
 }
 
 `;

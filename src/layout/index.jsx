@@ -1,11 +1,15 @@
-import { Wrapper } from "./styled";
+import { Wrapper, Container, Content } from "./styled";
+import { Sidebar } from "../components/Sidebar";
 import { Header } from "../components/Header";
 
 export const Layout = ({ children }) => {
   return (
     <Wrapper>
-      <h1>layout</h1>
-      <Header />
+      <Sidebar />
+      <Container>
+        <Content>{children}</Content>
+      </Container>
     </Wrapper>
   );
 };
+<Header />;

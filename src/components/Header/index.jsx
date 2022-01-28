@@ -1,3 +1,9 @@
+import { Wrapper } from "./styled";
+
 export function Header() {
-  return <h1>Header</h1>;
+  return (
+    <Wrapper>
+      <h1>Seu posicionamento por produto</h1>
+    </Wrapper>
+  );
 }
