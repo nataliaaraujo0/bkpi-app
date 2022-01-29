@@ -13,6 +13,7 @@ export const WrapperLogo = styled.div`
 `;
 
 export const SideItems = styled.ul`
+  height: 100%;
   display: flex;
   flex-direction: column;
   padding-left: 16px;
@@ -28,7 +29,9 @@ export const SideItems = styled.ul`
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
-    margin-top: 24px;
+    margin-top: 15px;
+
+    padding: 5px;
 
     &:hover {
       border-radius: 8px;
@@ -46,5 +49,18 @@ export const WrapperIconSeparetor = styled.div`
   display: flex;
 `;
 export const WrapperConfig = styled.div`
+  height: 100%;
+  width: 100%;
   display: flex;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+
+  div {
+    height: 1px;
+    width: 100%;
+    background-color: #8d8d8d;
+    margin-right: 20px;
+  }
 `;

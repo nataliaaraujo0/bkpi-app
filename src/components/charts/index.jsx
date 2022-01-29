@@ -7,13 +7,24 @@ import {
   WrapperDia,
 } from "./styled";
 
-export function Charts() {
+import Chart from "react-apexcharts";
+
+const options = {};
+
+const series = [50];
+
+export function Charts({ mes = "Janeiro" }) {
   return (
     <Wrapper>
       <WrapperCard>
-        <h1>Janeiro</h1>
+        <h1>{mes}</h1>
         <WrapperChart>
-          <span>chart aqui</span>
+          <Chart
+            type="radialBar"
+            height="160px"
+            options={options}
+            series={series}
+          />
         </WrapperChart>
         <WrapperText>
           <WrapperPreco>

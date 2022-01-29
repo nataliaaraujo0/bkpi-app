@@ -14,6 +14,7 @@ import musicIcon from "../../assets/img/music.svg";
 import graphIcon from "../../assets/img/graph.svg";
 import configIcon from "../../assets/img/config.svg";
 import separadorIcon from "../../assets/img/separador.svg";
+import { Link } from "react-router-dom";
 
 export function Sidebar() {
   return (
@@ -22,34 +23,29 @@ export function Sidebar() {
         <img src={logoImg} alt="" />
       </WrapperLogo>
       <SideItems>
-        <a href="#">
+        <Link to="/dashboard">
           <img src={speedometerIcon} alt="" />
           <span>Dashboard</span>
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="/blogs">
           <img src={fileIcon} alt="" />
           <span>BLogs</span>
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="/videos">
           <img src={videosIcon} alt="" />
           <span>Videos</span>
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="/podcast">
           <img src={musicIcon} alt="" />
           <span>Podcast</span>
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="/relatorios">
           <img src={graphIcon} alt="" />
-          <span>Podcast</span>
-        </a>
-
-        <WrapperSeparetor>
-          <WrapperIconSeparetor>
-            <img src={separadorIcon} alt="" />
-          </WrapperIconSeparetor>
-        </WrapperSeparetor>
+          <span>Relatórios</span>
+        </Link>
 
         <WrapperConfig>
+          <div></div>
           <a href="#">
             <img src={configIcon} alt="" />
             <span>Configuracoes</span>
