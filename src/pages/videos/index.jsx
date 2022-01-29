@@ -5,7 +5,7 @@ export const Videos = () => {
   return (
     <Layout>
       <Wrapper>
-        <h1>Podcast</h1>
+        <h1>Videos</h1>
       </Wrapper>
     </Layout>
   );

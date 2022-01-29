@@ -5,7 +5,7 @@ export const Relatorios = () => {
   return (
     <Layout>
       <Wrapper>
-        <h1>Podcast</h1>
+        <h1>Relatórios</h1>
       </Wrapper>
     </Layout>
   );
