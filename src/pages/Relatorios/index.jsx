@@ -1,9 +1,12 @@
 import { Layout } from "../../layout";
+import { Wrapper } from "./styled";
 
 export const Relatorios = () => {
   return (
     <Layout>
-      <h1>Relatorios</h1>
+      <Wrapper>
+        <h1>Podcast</h1>
+      </Wrapper>
     </Layout>
   );
 };

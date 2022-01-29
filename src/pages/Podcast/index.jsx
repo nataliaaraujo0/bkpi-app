@@ -1,9 +1,11 @@
 import { Layout } from "../../layout";
-
+import { Wrapper } from "./styled";
 export const Podcast = () => {
   return (
     <Layout>
-      <h1>Podcast</h1>
+      <Wrapper>
+        <h1>Podcast</h1>
+      </Wrapper>
     </Layout>
   );
 };
