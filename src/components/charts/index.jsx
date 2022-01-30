@@ -9,7 +9,34 @@ import {
 
 import Chart from "react-apexcharts";
 
-const options = {};
+const options = {
+  plotOptions: {
+    radialBar: {
+      hollow: {
+        margin: 15,
+        size: 72,
+        image: "../../assets/img/silo.png",
+      },
+    },
+  },
+  fill: {
+    type: "gradient",
+    gradient: {
+      shade: "dark",
+      type: "vertical",
+      shadeIntensity: 0.5,
+      gradientToColors: ["#00F0FF"],
+      inverseColors: true,
+      opacityFrom: 1,
+      opacityTo: 1,
+      stops: [0, 100],
+    },
+  },
+
+  stroke: {
+    lineCap: "round",
+  },
+};
 
 const series = [50];
 

@@ -14,5 +14,9 @@ export const Wrapper = styled.div`
     &:hover {
       background-color: var(--orange);
     }
+
+    &.active {
+      background-color: #ff6600;
+    }
   }
 `;

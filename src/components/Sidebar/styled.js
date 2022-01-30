@@ -41,6 +41,10 @@ export const SideItems = styled.ul`
     span {
       padding-left: 9px;
     }
+
+    &.active {
+      background-color: #ff6600;
+    }
   }
 `;
 
