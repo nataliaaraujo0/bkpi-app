@@ -6,19 +6,26 @@ import {
   WrapperPreco,
   WrapperDia,
 } from "./styled";
+import siloIcon from "../../assets/img/silo.png";
 
 import Chart from "react-apexcharts";
 
 const options = {
+  colors: ["#3988FF"],
+
   plotOptions: {
     radialBar: {
       hollow: {
         margin: 15,
         size: 72,
-        image: "../../assets/img/silo.png",
+        image: siloIcon,
+        imageWidth: 20,
+        imageHeight: 29,
+        imageClipped: false,
       },
     },
   },
+
   fill: {
     type: "gradient",
     gradient: {
@@ -36,10 +43,11 @@ const options = {
   stroke: {
     lineCap: "round",
   },
+
+  labels: ["50%"],
 };
 
 const series = [50];
-
 export function Charts({ mes = "Janeiro" }) {
   return (
     <Wrapper>

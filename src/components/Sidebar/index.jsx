@@ -7,7 +7,6 @@ import musicIcon from "../../assets/img/music.svg";
 import graphIcon from "../../assets/img/graph.svg";
 import configIcon from "../../assets/img/config.svg";
 import { Link, useLocation } from "react-router-dom";
-import { useState, useEffect } from "react";
 
 export function Sidebar() {
   const { pathname } = useLocation();
