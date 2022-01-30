@@ -16,7 +16,7 @@ export const SideItems = styled.ul`
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding-left: 16px;
+
   list-style: none;
   width: 100%;
 
@@ -31,7 +31,7 @@ export const SideItems = styled.ul`
     text-decoration: none;
     margin-top: 15px;
 
-    padding: 5px;
+    padding: 10px;
 
     &:hover {
       border-radius: 8px;
@@ -44,6 +44,7 @@ export const SideItems = styled.ul`
 
     &.active {
       background-color: #ff6600;
+      border-radius: 8px;
     }
   }
 `;
